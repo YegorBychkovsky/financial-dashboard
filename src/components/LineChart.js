@@ -27,6 +27,7 @@ export default function LineChart({ label, data, color, back = true }) {
   const router = useRouter();
 
   const handleBack = () => {
+    
     router.back();
   };
 
