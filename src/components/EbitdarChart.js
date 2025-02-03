@@ -8,6 +8,7 @@ export default function EbitdarChart({ data }) {
   const handleBack = () => {
     router.back();
   };
+  
   return (
     <div>
       <Button text={"← Back"} onClick={handleBack} />
